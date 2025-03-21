@@ -4,7 +4,7 @@
 
 ### C++ Lab#1 - Console Input & Output
 
-- DS001. 비만 판정하기기
+- DS001. 비만 판정하기
 
 ![DS001](./captures/DS001.png)
 
