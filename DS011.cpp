@@ -7,7 +7,7 @@ int main()
 {
     int num, sum = 0;
     cout << "input num : ";
-    cin >> num;
+    cin >> num; // 3
 
     int *input = new int[num]; // 0 1 2
 
@@ -29,12 +29,17 @@ int main()
 int *maxNum(int input[], int size)
 {
     int *max;
-    if (size > 0)
-    {
-        max = &input[0];
-    }
+    // if (size > 0)
+    // {
+    //     max = &input[0];
+    // }
     for (int i = 0; i < size; i++)
     {
+        if (i == 0)
+        {
+            max = &input[0];
+        }
+
         if (*max < input[i])
         {
             max = &input[i];
