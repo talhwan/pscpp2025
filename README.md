@@ -6,7 +6,7 @@
 
 - DS011. 입력한 수의 전체합과 최대값 구하기
 
-![DS011](./captures/DS011.png)
+![DS001](./captures/DS001.png)
 
 ### 소감
 
